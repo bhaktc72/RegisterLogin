@@ -15,7 +15,7 @@
                 <p class="mt-2 text-sm text-gray-600">Login to your customer account</p>
             </div>
 
-            {{-- Show validation errors --}}
+
             @if ($errors->any())
                 <div class="mt-4 bg-red-100 text-red-700 text-sm p-3 rounded">
                     <ul class="list-disc list-inside">

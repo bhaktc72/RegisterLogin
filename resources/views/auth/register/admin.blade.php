@@ -15,7 +15,7 @@
                 <p class="mt-2 text-sm text-gray-600">Create your admin account</p>
             </div>
 
-            {{-- Show validation errors --}}
+
             @if ($errors->any())
                 <div class="mt-4 bg-red-100 text-red-700 text-sm p-3 rounded">
                     <ul class="list-disc list-inside">
@@ -26,7 +26,6 @@
                 </div>
             @endif
 
-            {{-- Success message --}}
             @if(session('success'))
                 <div class="mt-4 bg-green-100 text-green-700 text-sm p-3 rounded">
                     {{ session('success') }}
